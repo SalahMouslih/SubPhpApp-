@@ -1,0 +1,98 @@
+body{
+        background:lighgrey;
+        font-family: Helvetica;
+        font-size:12px;
+        color:grey;
+        
+
+    }
+   .form {
+        width: 100%;
+        display:inline-block;
+        vertical-align: middle;
+
+       
+ 
+    }
+    .container{
+        width: 700px;
+        margin:40px;
+         background: white;
+        position: relative;
+        display:inline-block;
+      
+        padding: 0 30px;
+
+    }
+    input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+    input[type="text"],
+    input[type="select"],
+    input[type="date"],
+    select {
+        background: grey;
+        border: none;
+        font-size: 9px;
+        padding: 6px;
+        width: 60%;
+        background-color :#f6f6f6f6;
+    }
+
+input[type="radio"],
+input[type="checkbox"] {
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+}
+
+.heading{
+    font-size: 32px;
+    color:black;
+        
+    }
+label {
+    text-align: right;
+     color:black;
+}
+
+.texte{
+    color:black;
+    text-align: left;
+    margin:39px;
+
+}
+input[type="button"],
+input[type="reset"]
+ {
+  background-color: grey;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding:8px 12px;
+  font-size: 12px;
+}
+
+input[type="submit"]{
+    background-color: blue;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding:8px 12px;
+  font-size: 12px;
+}
+
+  table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+
+     
